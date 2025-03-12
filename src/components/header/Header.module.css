@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; /* Certifica-se de que o header comece na margem esquerda */
+  z-index: 1000;
+}
+
+.header > div, .header > nav {
+  flex: 1;
+}
+
+.left {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 0px; /* Ajuste a margem conforme necessário */
+}
+
+.left a {
+  text-decoration: none;
+  color: #313433;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #313433;
+  font-size: 18px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-right: 150px; /* Ajuste a margem conforme necessário */
+}
+
+.right a {
+  color: #313433;
+  font-size: 24px;
+}
+
+.right img {
+  width: 24px;
+  height: 24px;
+}

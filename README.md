@@ -1,1 +1,1 @@
-⊹˚. desenvolvimento de um portifólio com react vite. ദ്ദി •⩊• )
+⊹˚. Desenvolvimento de um portifólio com react vite. ദ്ദി •⩊• )
